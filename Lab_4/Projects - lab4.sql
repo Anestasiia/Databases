@@ -1,9 +1,9 @@
 --ADDING COLUMNS TO TABLES
 ALTER TABLE [ProjectsImplementation].[Project] ADD 
-	[UCR] [nvarchar](max) NULL,--ім’я користувача, що створив запис
-	[DCR] [datetime2] NULL,--дата та час створення даного запису
-	[ULR] [nvarchar](max) NULL,--ім’я користувача, що останнім змінив  запис
-	[DLC] [datetime2] NULL;--дата та час останньої модифікації  запису
+	[UCR] [nvarchar](max) NULL,--ВіГ¬вЂ™Гї ГЄГ®Г°ГЁГ±ГІГіГўГ Г·Г , Г№Г® Г±ГІГўГ®Г°ГЁГў Г§Г ГЇГЁГ±
+	[DCR] [datetime2] NULL,--Г¤Г ГІГ  ГІГ  Г·Г Г± Г±ГІГўГ®Г°ГҐГ­Г­Гї Г¤Г Г­Г®ГЈГ® Г§Г ГЇГЁГ±Гі
+	[ULR] [nvarchar](max) NULL,--ВіГ¬вЂ™Гї ГЄГ®Г°ГЁГ±ГІГіГўГ Г·Г , Г№Г® Г®Г±ГІГ Г­Г­ВіГ¬ Г§Г¬ВіГ­ГЁГў  Г§Г ГЇГЁГ±
+	[DLC] [datetime2] NULL;--Г¤Г ГІГ  ГІГ  Г·Г Г± Г®Г±ГІГ Г­Г­ГјГ®Вї Г¬Г®Г¤ГЁГґВіГЄГ Г¶ВіВї  Г§Г ГЇГЁГ±Гі
 GO
 
 ALTER TABLE [ProjectsImplementation].[Monthly_Bill] ADD 
